@@ -1,0 +1,17 @@
+<style>
+    .blue-box {
+        background: blue;
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<div class="blue-box" id="blueBox"></div>
+<script>
+    (function() {
+        var $el = $('#blueBox');
+        var i = 1;
+        setInterval(function() {
+            $el.html(i++);
+        }, 100);
+    })();
+</script>

@@ -1,0 +1,17 @@
+<style>
+    .red-box {
+        background: red;
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<div class="red-box" id="redBox"></div>
+<script>
+    (function() {
+        var $el = $('#redBox');
+        var i = 1;
+        setInterval(function() {
+            $el.html(i++);
+        }, 100);
+    })();
+</script>
