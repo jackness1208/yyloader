@@ -15,7 +15,7 @@
 </script>
 ```
 
-然后执行 `yyloader(<selector>)` 即可 例子在 [这里](./test/html/index.html)
+然后执行 `yyloader(<selector>)` 即可 例子在 [这里](https://cdn.rawgit.com/jackness1208/yyloader/ab730dfd/test/html/index.html)
 
 ## HTML 属性说明
 ```
