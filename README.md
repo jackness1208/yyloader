@@ -5,8 +5,8 @@
 ```
 <div
     id="mod01"
-    data-loader-url="../components/module01.html"
-    data-loader-name="module01"
+    data-loader-src="../components/module01.html"
+    data-loader-id="module01"
     data-loader-ref="module02"
 >
 </div>
@@ -19,8 +19,8 @@
 
 ## HTML 属性说明
 ```
-data-loader-url  模板地址
-data-loader-name 模板id 确保在整个域名中的唯一性
+data-loader-src  模板地址
+data-loader-id   模板id 确保在整个域名中的唯一性
 data-loader-ref  模板依赖, 多个依赖用 逗号隔开
 ```
 
